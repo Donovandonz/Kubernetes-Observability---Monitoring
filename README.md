@@ -23,17 +23,19 @@ This project demonstrates a complete **observability pipeline** for a containeri
 - Installation of the `kube-prometheus-stack` (Prometheus, Grafana, Alertmanager) using Helm.
 - Custom Grafana dashboards to visualize CPU and memory usage of the Flask app.
 
-## All resources run **locally** – no cloud costs.
+---
+
+## All resources run **locally** – no cloud costs $0 .
 
 ## 🛠️ Technologies Used
 
-| Category       | Tools                                                                 |
-|----------------|-----------------------------------------------------------------------|
-| Orchestration  | Kubernetes (Minikube), kubectl                                        |
-| Container      | Docker                                                                 |
-| Monitoring     | Prometheus, Grafana, Helm                                             |
-| Language       | Python 3.9 + Flask                                                    |
-| Version Ctrl   | Git                                                                   |
+| Category       | Tools                                      | Cost / Why Free                                                                 |
+|----------------|--------------------------------------------|---------------------------------------------------------------------------------|
+| Orchestration  | Kubernetes (Minikube), kubectl             | $0 – Open‑source, local cluster (uses your own PC resources)                   |
+| Container      | Docker                                     | $0 – Free for personal/educational use (Docker Desktop Personal license)       |
+| Monitoring     | Prometheus, Grafana, Helm                  | $0 – Open‑source CNCF projects, no licensing fees                              |
+| Language       | Python 3.9 + Flask                         | $0 – Open‑source, free to use for any purpose                                  |
+| Version Ctrl   | Git                                        | $0 – Open‑source, free forever                                                 |
 
 ---
 
