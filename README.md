@@ -62,7 +62,7 @@ Windows 10/11 with Docker Desktop
 
 - Docker Desktop
 
-### Step‑by‑Step
+### Step‑by‑Step (USE POWERSHELL)
 1. Start Minikube
 ```
 minikube start --driver=docker
@@ -72,10 +72,10 @@ minikube start --driver=docker
 eval $(minikube docker-env)
 docker build -t flask-k8s-app:v1 .
 ```
-3. Deploy the app
+3. Deploy the app (Download the file on the Repo attach)
 ```
-kubectl apply -f k8s/deployment.yaml.txt
-kubectl apply -f k8s/service.yaml.txt
+- kubectl apply -f k8s/deployment.yaml.txt
+- kubectl apply -f k8s/service.yaml.txt
 ```
 4. Install the monitoring stack
 ```
